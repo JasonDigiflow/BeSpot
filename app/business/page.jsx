@@ -117,7 +117,7 @@ export default function BusinessPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="text-center">
                 <div className="text-2xl font-bold text-purple-600">10K+</div>
-                <div className="text-sm text-gray-600">Établissements (cible 2024)</div>
+                <div className="text-sm text-gray-600">Établissements (cible 2025)</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-purple-600">500+</div>
@@ -237,7 +237,7 @@ export default function BusinessPage() {
           
           <div className="space-y-6">
             <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="font-bold text-green-600 mb-2">Phase 1 : MVP (Q1 2024) ✅</h3>
+              <h3 className="font-bold text-green-600 mb-2">Phase 1 : MVP (Q1 2025) ✅</h3>
               <ul className="text-gray-700 space-y-1">
                 <li>• Site web responsive</li>
                 <li>• Référencement 20+ établissements</li>
@@ -247,7 +247,7 @@ export default function BusinessPage() {
             </div>
 
             <div className="border-l-4 border-blue-500 pl-6">
-              <h3 className="font-bold text-blue-600 mb-2">Phase 2 : Croissance (Q2 2024)</h3>
+              <h3 className="font-bold text-blue-600 mb-2">Phase 2 : Croissance (Q3 2025)</h3>
               <ul className="text-gray-700 space-y-1">
                 <li>• Import automatique partenaires BeHype</li>
                 <li>• Système d&apos;avis vérifiés</li>
@@ -257,7 +257,7 @@ export default function BusinessPage() {
             </div>
 
             <div className="border-l-4 border-purple-500 pl-6">
-              <h3 className="font-bold text-purple-600 mb-2">Phase 3 : Expansion (Q3-Q4 2024)</h3>
+              <h3 className="font-bold text-purple-600 mb-2">Phase 3 : Expansion (Q4 2025 - Q1 2026)</h3>
               <ul className="text-gray-700 space-y-1">
                 <li>• API publique</li>
                 <li>• Programme d&apos;affiliation</li>
@@ -267,7 +267,7 @@ export default function BusinessPage() {
             </div>
 
             <div className="border-l-4 border-orange-500 pl-6">
-              <h3 className="font-bold text-orange-600 mb-2">Phase 4 : Monétisation (2025)</h3>
+              <h3 className="font-bold text-orange-600 mb-2">Phase 4 : Monétisation (2026)</h3>
               <ul className="text-gray-700 space-y-1">
                 <li>• Offres standalone BeSpot Premium</li>
                 <li>• Marketplace de services</li>
@@ -426,7 +426,7 @@ export default function BusinessPage() {
               <div className="text-5xl mb-3">🚀</div>
               <h3 className="font-bold mb-2">Go-to-Market</h3>
               <p className="text-sm">
-                Lancement campagne de communication Q2 2024
+                Lancement campagne de communication Q4 2025
               </p>
             </div>
           </div>
