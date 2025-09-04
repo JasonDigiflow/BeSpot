@@ -71,7 +71,7 @@ export default function BusinessPage() {
                     <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                   </svg>
                   <div>
-                    <strong>Indirect via BeHype :</strong> Abonnements partenaires (299€-899€/mois)
+                    <strong>Indirect via BeHype :</strong> Inclus dans les abonnements de base (89$-1990$/mois)
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -79,7 +79,7 @@ export default function BusinessPage() {
                     <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                   </svg>
                   <div>
-                    <strong>Publicité display :</strong> Bannières et encarts sponsorisés (à venir)
+                    <strong>Publicité display :</strong> Bannières et encarts sponsorisés
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -87,7 +87,7 @@ export default function BusinessPage() {
                     <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
                   </svg>
                   <div>
-                    <strong>Événements sponsorisés :</strong> Mise en avant temporaire (à venir)
+                    <strong>Mise en avant premium :</strong> Positions payantes dans le palmarès + encarts VIP
                   </div>
                 </li>
               </ul>
@@ -135,10 +135,103 @@ export default function BusinessPage() {
           </div>
         </div>
 
-        {/* Synergie avec BeHype */}
+        {/* Nouveau : Système de Gamification Palmarès */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-bold text-bespot-dark mb-6 flex items-center">
             <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">3</span>
+            Palmarès : Gamification de la Marketplace
+          </h2>
+          
+          <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg p-6 mb-6">
+            <h3 className="font-bold text-bespot-dark mb-4">Concept du Palmarès Trimestriel</h3>
+            <p className="text-gray-700 mb-4">
+              Chaque trimestre, nos influenceurs notent et classent les établissements par région. 
+              Le Top 10 bénéficie d'une visibilité gratuite dans nos articles SEO optimisés, 
+              créant une compétition saine et incitant les établissements à améliorer leur service.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-white rounded-lg p-4">
+                <h4 className="font-semibold text-yellow-600 mb-2">Incitation à l'excellence</h4>
+                <p className="text-sm text-gray-700">
+                  Les établissements sont motivés à offrir le meilleur service pour être dans le Top 10
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-4">
+                <h4 className="font-semibold text-orange-600 mb-2">Contenu SEO régulier</h4>
+                <p className="text-sm text-gray-700">
+                  Articles trimestriels optimisés générant du trafic organique qualifié
+                </p>
+              </div>
+              <div className="bg-white rounded-lg p-4">
+                <h4 className="font-semibold text-red-600 mb-2">Opportunités d'upsell</h4>
+                <p className="text-sm text-gray-700">
+                  Positions garanties et mises en avant premium pour nos meilleurs clients
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="border-2 border-green-200 rounded-lg p-6 bg-green-50">
+              <h3 className="font-bold text-green-800 mb-3">Bénéfices Gratuits (Top 10)</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  Présence dans l'article trimestriel
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  Citation d'influenceur authentique
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  Backlink SEO de qualité
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  Badge "Top 10" à afficher
+                </li>
+              </ul>
+            </div>
+            
+            <div className="border-2 border-gold-200 rounded-lg p-6 bg-yellow-50">
+              <h3 className="font-bold text-yellow-800 mb-3">Options Payantes Premium</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-yellow-600 mr-2">★</span>
+                  Position garantie (Top 3) - 500$/trimestre
+                </li>
+                <li className="flex items-start">
+                  <span className="text-yellow-600 mr-2">★</span>
+                  Encart VIP détaillé - 300$/article
+                </li>
+                <li className="flex items-start">
+                  <span className="text-yellow-600 mr-2">★</span>
+                  Interview exclusive - 800$/article
+                </li>
+                <li className="flex items-start">
+                  <span className="text-yellow-600 mr-2">★</span>
+                  Sponsoring du palmarès régional - 2000$/trimestre
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-6 p-4 bg-purple-50 rounded-lg">
+            <h4 className="font-semibold text-purple-800 mb-2">Impact sur la Marketplace BeHype</h4>
+            <p className="text-gray-700">
+              Ce système de gamification augmente l'engagement des établissements avec la plateforme BeHype. 
+              Les établissements cherchent activement à obtenir plus de campagnes d'influence pour améliorer 
+              leur notation et leur position dans le palmarès, créant un cercle vertueux d'engagement et de revenus.
+            </p>
+          </div>
+        </div>
+
+        {/* Synergie avec BeHype */}
+        <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h2 className="text-2xl font-bold text-bespot-dark mb-6 flex items-center">
+            <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">4</span>
             Synergie avec BeHype
           </h2>
           
@@ -231,7 +324,7 @@ export default function BusinessPage() {
         {/* Roadmap */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-bold text-bespot-dark mb-6 flex items-center">
-            <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">4</span>
+            <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">5</span>
             Roadmap Produit
           </h2>
           
@@ -243,6 +336,7 @@ export default function BusinessPage() {
                 <li>• Référencement 20+ établissements</li>
                 <li>• Système de filtres et recherche</li>
                 <li>• Fiches premium partenaires</li>
+                <li>• Palmarès Q3 2025 (première édition)</li>
               </ul>
             </div>
 
@@ -281,7 +375,7 @@ export default function BusinessPage() {
         {/* Analyse Concurrentielle */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-bold text-bespot-dark mb-6 flex items-center">
-            <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">5</span>
+            <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">6</span>
             Analyse Concurrentielle
           </h2>
           
@@ -349,7 +443,7 @@ export default function BusinessPage() {
         {/* Stratégie d'Acquisition */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-bold text-bespot-dark mb-6 flex items-center">
-            <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">6</span>
+            <span className="w-8 h-8 bg-bespot-orange rounded-full flex items-center justify-center text-white font-bold mr-3">7</span>
             Stratégie d&apos;Acquisition
           </h2>
           
