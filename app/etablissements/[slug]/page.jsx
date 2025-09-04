@@ -45,6 +45,45 @@ export default function EtablissementPage({ params }) {
     { id: 3, author: "Sophie M.", rating: 5, comment: "Une expérience inoubliable, tout était parfait.", date: "Il y a 2 semaines" },
   ];
 
+  // Images contextuelles selon le type d'établissement
+  const contextualImages = {
+    restaurant: {
+      title: "Nos plats signature",
+      images: [
+        { url: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400", alt: "Plat principal" },
+        { url: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400", alt: "Entrée raffinée" },
+        { url: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400", alt: "Pizza artisanale" },
+        { url: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400", alt: "Dessert gourmand" },
+        { url: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400", alt: "Salade fraîche" },
+        { url: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400", alt: "Burger gourmet" }
+      ]
+    },
+    hotel: {
+      title: "Nos chambres et suites",
+      images: [
+        { url: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=400", alt: "Suite deluxe" },
+        { url: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=400", alt: "Chambre standard" },
+        { url: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400", alt: "Salle de bain luxe" },
+        { url: "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=400", alt: "Vue balcon" },
+        { url: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=400", alt: "Chambre familiale" },
+        { url: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=400", alt: "Espace détente" }
+      ]
+    },
+    loisir: {
+      title: "Activités et expériences",
+      images: [
+        { url: "https://images.unsplash.com/photo-1533727937480-da3a97967e95?w=400", alt: "Activité principale" },
+        { url: "https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=400", alt: "Espace famille" },
+        { url: "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=400", alt: "Expérience unique" },
+        { url: "https://images.unsplash.com/photo-1606924795730-839545d2b97e?w=400", alt: "Spectacle" },
+        { url: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=400", alt: "Vue panoramique" },
+        { url: "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=400", alt: "Attraction" }
+      ]
+    }
+  };
+
+  const specificImages = contextualImages[etablissement.category] || contextualImages.loisir;
+
   return (
     <div className="container mx-auto px-4 py-8">
       <Link href="/etablissements" className="inline-flex items-center text-bespot-blue hover:text-blue-600 mb-6">
@@ -154,6 +193,32 @@ export default function EtablissementPage({ params }) {
                   className="absolute inset-0"
                 ></iframe>
               </div>
+            </div>
+          </div>
+
+          {/* Section d'images contextuelles selon le type d'établissement */}
+          <div className="mt-8 bg-white rounded-lg p-6">
+            <h3 className="text-xl font-semibold text-bespot-dark mb-4">
+              {specificImages.title}
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {specificImages.images.map((image, index) => (
+                <div key={index} className="group cursor-pointer">
+                  <div className="relative h-48 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <Image
+                      src={image.url}
+                      alt={image.alt}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <p className="absolute bottom-2 left-2 text-white text-sm font-medium">
+                        {image.alt}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
 
