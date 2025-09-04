@@ -90,6 +90,14 @@ export default function BusinessPage() {
                     <strong>Mise en avant premium :</strong> Positions payantes dans le palmarès + encarts VIP
                   </div>
                 </li>
+                <li className="flex items-start">
+                  <svg className="w-5 h-5 mr-2 text-green-600 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                  </svg>
+                  <div>
+                    <strong>Upsell Site Web :</strong> Référencement premium en complément des sites web BeHype
+                  </div>
+                </li>
               </ul>
             </div>
 
@@ -220,11 +228,20 @@ export default function BusinessPage() {
 
           <div className="mt-6 p-4 bg-purple-50 rounded-lg">
             <h4 className="font-semibold text-purple-800 mb-2">Impact sur la Marketplace BeHype</h4>
-            <p className="text-gray-700">
+            <p className="text-gray-700 mb-3">
               Ce système de gamification augmente l'engagement des établissements avec la plateforme BeHype. 
               Les établissements cherchent activement à obtenir plus de campagnes d'influence pour améliorer 
               leur notation et leur position dans le palmarès, créant un cercle vertueux d'engagement et de revenus.
             </p>
+            <div className="bg-white/60 rounded-lg p-3 border border-purple-200">
+              <h5 className="font-semibold text-purple-700 mb-2">🌐 Synergie avec les Sites Web BeHype</h5>
+              <p className="text-sm text-gray-700">
+                Les clients BeHype qui souscrivent à la création de site web peuvent bénéficier d'un 
+                référencement premium automatique sur BeSpot, créant une valeur ajoutée significative 
+                à l'offre site web (upsell de 200-500$/mois). Le site BeSpot devient ainsi une vitrine 
+                supplémentaire qui renforce le SEO local et la visibilité en ligne globale du client.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -330,18 +347,18 @@ export default function BusinessPage() {
           
           <div className="space-y-6">
             <div className="border-l-4 border-green-500 pl-6">
-              <h3 className="font-bold text-green-600 mb-2">Phase 1 : MVP (Q1 2025) ✅</h3>
+              <h3 className="font-bold text-green-600 mb-2">Phase 1 : MVP (Q3 2025 - En cours) 🚀</h3>
               <ul className="text-gray-700 space-y-1">
-                <li>• Site web responsive</li>
-                <li>• Référencement 20+ établissements</li>
-                <li>• Système de filtres et recherche</li>
-                <li>• Fiches premium partenaires</li>
-                <li>• Palmarès Q3 2025 (première édition)</li>
+                <li>• Site web responsive ✅</li>
+                <li>• Référencement 20+ établissements ✅</li>
+                <li>• Système de filtres et recherche ✅</li>
+                <li>• Fiches premium partenaires ✅</li>
+                <li>• Palmarès Q3 2025 (lancement imminent)</li>
               </ul>
             </div>
 
             <div className="border-l-4 border-blue-500 pl-6">
-              <h3 className="font-bold text-blue-600 mb-2">Phase 2 : Croissance (Q3 2025)</h3>
+              <h3 className="font-bold text-blue-600 mb-2">Phase 2 : Croissance (Q4 2025)</h3>
               <ul className="text-gray-700 space-y-1">
                 <li>• Import automatique partenaires BeHype</li>
                 <li>• Système d&apos;avis vérifiés</li>
@@ -351,7 +368,7 @@ export default function BusinessPage() {
             </div>
 
             <div className="border-l-4 border-purple-500 pl-6">
-              <h3 className="font-bold text-purple-600 mb-2">Phase 3 : Expansion (Q4 2025 - Q1 2026)</h3>
+              <h3 className="font-bold text-purple-600 mb-2">Phase 3 : Expansion (Q1 2026)</h3>
               <ul className="text-gray-700 space-y-1">
                 <li>• API publique</li>
                 <li>• Programme d&apos;affiliation</li>
@@ -361,7 +378,7 @@ export default function BusinessPage() {
             </div>
 
             <div className="border-l-4 border-orange-500 pl-6">
-              <h3 className="font-bold text-orange-600 mb-2">Phase 4 : Monétisation (2026)</h3>
+              <h3 className="font-bold text-orange-600 mb-2">Phase 4 : Monétisation (Q2-Q3 2026)</h3>
               <ul className="text-gray-700 space-y-1">
                 <li>• Offres standalone BeSpot Premium</li>
                 <li>• Marketplace de services</li>
@@ -506,7 +523,7 @@ export default function BusinessPage() {
               <div className="text-5xl mb-3">📊</div>
               <h3 className="font-bold mb-2">Validation Metrics</h3>
               <p className="text-sm">
-                Objectif : 100 établissements référencés fin Q1
+                Objectif : 100 établissements référencés fin Q3 2025
               </p>
             </div>
             <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6">
@@ -520,7 +537,7 @@ export default function BusinessPage() {
               <div className="text-5xl mb-3">🚀</div>
               <h3 className="font-bold mb-2">Go-to-Market</h3>
               <p className="text-sm">
-                Lancement campagne de communication Q4 2025
+                Lancement campagne de communication Q3-Q4 2025
               </p>
             </div>
           </div>

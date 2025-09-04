@@ -29,9 +29,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${inter.className} bg-bespot-light`}>
+      <body className={`${inter.className} bg-gradient-to-br from-gray-50 via-white to-gray-50`}>
         <NavBar />
-        <main className="min-h-screen pt-16">
+        <main className="min-h-screen pt-20">
+          {/* Premium gradient overlay */}
+          <div className="fixed inset-0 -z-10 opacity-30">
+            <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full filter blur-3xl"></div>
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-to-br from-orange-200 to-pink-200 rounded-full filter blur-3xl"></div>
+          </div>
           {children}
         </main>
         <Footer />
