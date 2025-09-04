@@ -1,0 +1,404 @@
+[
+  {
+    "id": 1,
+    "slug": "la-petite-venise-lyon",
+    "name": "La Petite Venise",
+    "category": "restaurant",
+    "city": "Lyon",
+    "country": "France",
+    "rating": 4.7,
+    "isPartner": true,
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800",
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800"
+    ],
+    "description": "Restaurant italien authentique avec vue sur la Saône. Spécialités de pâtes fraîches et pizzas au feu de bois.",
+    "tags": ["Italien", "Terrasse", "Vue rivière", "Romantique"],
+    "address": "12 Quai Saint-Antoine, 69002 Lyon",
+    "hours": "12h-14h30, 19h-23h",
+    "lat": 45.7640,
+    "lng": 4.8357
+  },
+  {
+    "id": 2,
+    "slug": "hotel-carlton-cannes",
+    "name": "Hôtel Carlton",
+    "category": "hotel",
+    "city": "Cannes",
+    "country": "France",
+    "rating": 4.9,
+    "isPartner": true,
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800"
+    ],
+    "description": "Hôtel de luxe emblématique sur la Croisette avec plage privée et service 5 étoiles.",
+    "tags": ["Luxe", "Plage privée", "Spa", "Vue mer"],
+    "address": "58 Boulevard de la Croisette, 06400 Cannes",
+    "hours": "24/7",
+    "lat": 43.5528,
+    "lng": 7.0174
+  },
+  {
+    "id": 3,
+    "slug": "aquarium-la-rochelle",
+    "name": "Aquarium La Rochelle",
+    "category": "loisir",
+    "city": "La Rochelle",
+    "country": "France",
+    "rating": 4.5,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800",
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800"
+    ],
+    "description": "L'un des plus grands aquariums privés d'Europe avec plus de 12 000 animaux marins.",
+    "tags": ["Famille", "Éducatif", "Indoor"],
+    "address": "Quai Louis Prunier, 17000 La Rochelle",
+    "hours": "9h-20h (été), 10h-18h (hiver)",
+    "lat": 46.1559,
+    "lng": -1.1505
+  },
+  {
+    "id": 4,
+    "slug": "brasserie-georges-lyon",
+    "name": "Brasserie Georges",
+    "category": "restaurant",
+    "city": "Lyon",
+    "country": "France",
+    "rating": 4.3,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800"
+    ],
+    "description": "Brasserie historique depuis 1836, immense salle Art Déco et cuisine traditionnelle lyonnaise.",
+    "tags": ["Traditionnel", "Historique", "Brasserie"],
+    "address": "30 Cours de Verdun, 69002 Lyon",
+    "hours": "11h30-23h30",
+    "lat": 45.7485,
+    "lng": 4.8263
+  },
+  {
+    "id": 5,
+    "slug": "hotel-negresco-nice",
+    "name": "Hotel Negresco",
+    "category": "hotel",
+    "city": "Nice",
+    "country": "France",
+    "rating": 4.8,
+    "isPartner": true,
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800",
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?w=800"
+    ],
+    "description": "Palace mythique de la Promenade des Anglais, symbole du luxe à la française depuis 1913.",
+    "tags": ["Palace", "Historique", "Vue mer", "Gastronomie"],
+    "address": "37 Promenade des Anglais, 06000 Nice",
+    "hours": "24/7",
+    "lat": 43.6942,
+    "lng": 7.2592
+  },
+  {
+    "id": 6,
+    "slug": "le-comptoir-du-relais-paris",
+    "name": "Le Comptoir du Relais",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "rating": 4.6,
+    "isPartner": true,
+    "images": [
+      "https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=800",
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800"
+    ],
+    "description": "Bistrot parisien typique de Yves Camdeborde, cuisine du marché dans une ambiance conviviale.",
+    "tags": ["Bistrot", "Traditionnel", "Saint-Germain"],
+    "address": "9 Carrefour de l'Odéon, 75006 Paris",
+    "hours": "12h-23h",
+    "lat": 48.8522,
+    "lng": 2.3393
+  },
+  {
+    "id": 7,
+    "slug": "casino-barriere-deauville",
+    "name": "Casino Barrière Deauville",
+    "category": "loisir",
+    "city": "Deauville",
+    "country": "France",
+    "rating": 4.4,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=800",
+      "https://images.unsplash.com/photo-1517232115160-ff93364542dd?w=800"
+    ],
+    "description": "Casino emblématique de la côte normande avec machines à sous, tables de jeux et spectacles.",
+    "tags": ["Casino", "Spectacles", "Bar", "Luxe"],
+    "address": "2 Rue Edmond Blanc, 14800 Deauville",
+    "hours": "10h-3h (weekend jusqu'à 4h)",
+    "lat": 49.3609,
+    "lng": 0.0756
+  },
+  {
+    "id": 8,
+    "slug": "la-table-de-franck-putelat-carcassonne",
+    "name": "La Table de Franck Putelat",
+    "category": "restaurant",
+    "city": "Carcassonne",
+    "country": "France",
+    "rating": 4.9,
+    "isPartner": true,
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800",
+      "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800"
+    ],
+    "description": "Restaurant doublement étoilé Michelin, cuisine créative et raffinée face à la cité médiévale.",
+    "tags": ["Gastronomique", "2 étoiles Michelin", "Vue cité"],
+    "address": "80 Chemin des Anglais, 11000 Carcassonne",
+    "hours": "12h-14h, 19h30-21h30 (fermé dimanche-lundi)",
+    "lat": 43.2068,
+    "lng": 2.3626
+  },
+  {
+    "id": 9,
+    "slug": "hotel-du-palais-biarritz",
+    "name": "Hôtel du Palais",
+    "category": "hotel",
+    "city": "Biarritz",
+    "country": "France",
+    "rating": 4.8,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800",
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800"
+    ],
+    "description": "Palace impérial surplombant la Grande Plage, ancienne résidence de Napoléon III.",
+    "tags": ["Palace", "Vue océan", "Spa", "Histoire"],
+    "address": "1 Avenue de l'Impératrice, 64200 Biarritz",
+    "hours": "24/7",
+    "lat": 43.4833,
+    "lng": -1.5667
+  },
+  {
+    "id": 10,
+    "slug": "futuroscope-poitiers",
+    "name": "Futuroscope",
+    "category": "loisir",
+    "city": "Poitiers",
+    "country": "France",
+    "rating": 4.6,
+    "isPartner": true,
+    "images": [
+      "https://images.unsplash.com/photo-1606924795730-839545d2b97e?w=800",
+      "https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=800"
+    ],
+    "description": "Parc d'attractions technologique avec expériences immersives et spectacles futuristes.",
+    "tags": ["Parc d'attractions", "Famille", "Technologies", "Spectacles"],
+    "address": "Avenue René Monory, 86360 Chasseneuil-du-Poitou",
+    "hours": "10h-23h (horaires variables selon saison)",
+    "lat": 46.6696,
+    "lng": 0.3686
+  },
+  {
+    "id": 11,
+    "slug": "le-bernardin-paris",
+    "name": "Le Bernardin",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "rating": 4.7,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800",
+      "https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800"
+    ],
+    "description": "Restaurant de fruits de mer raffiné avec une sélection exceptionnelle de poissons et crustacés.",
+    "tags": ["Fruits de mer", "Gastronomique", "Étoilé"],
+    "address": "18 Rue Troyon, 75017 Paris",
+    "hours": "12h-14h30, 19h30-22h30",
+    "lat": 48.8765,
+    "lng": 2.2964
+  },
+  {
+    "id": 12,
+    "slug": "hotel-martinez-cannes",
+    "name": "Hotel Martinez",
+    "category": "hotel",
+    "city": "Cannes",
+    "country": "France",
+    "rating": 4.7,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1590073844006-33379778ae09?w=800",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800"
+    ],
+    "description": "Hôtel Art Déco légendaire sur la Croisette avec plage privée et restaurants gastronomiques.",
+    "tags": ["Luxe", "Art Déco", "Plage privée", "Croisette"],
+    "address": "73 Boulevard de la Croisette, 06400 Cannes",
+    "hours": "24/7",
+    "lat": 43.5485,
+    "lng": 7.0312
+  },
+  {
+    "id": 13,
+    "slug": "parc-asterix",
+    "name": "Parc Astérix",
+    "category": "loisir",
+    "city": "Plailly",
+    "country": "France",
+    "rating": 4.5,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1551710029-607e06bd45ff?w=800",
+      "https://images.unsplash.com/photo-1604152135912-04a022e23696?w=800"
+    ],
+    "description": "Parc d'attractions gaulois avec montagnes russes et spectacles sur le thème d'Astérix.",
+    "tags": ["Parc d'attractions", "Famille", "Montagnes russes"],
+    "address": "60128 Plailly",
+    "hours": "10h-18h (horaires variables)",
+    "lat": 49.1357,
+    "lng": 2.5723
+  },
+  {
+    "id": 14,
+    "slug": "la-coupole-paris",
+    "name": "La Coupole",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "rating": 4.2,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=800",
+      "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800"
+    ],
+    "description": "Brasserie Art Déco mythique de Montparnasse, lieu de rencontre des artistes depuis 1927.",
+    "tags": ["Brasserie", "Art Déco", "Historique", "Montparnasse"],
+    "address": "102 Boulevard du Montparnasse, 75014 Paris",
+    "hours": "8h30-00h30",
+    "lat": 48.8422,
+    "lng": 2.3285
+  },
+  {
+    "id": 15,
+    "slug": "sofitel-lyon-bellecour",
+    "name": "Sofitel Lyon Bellecour",
+    "category": "hotel",
+    "city": "Lyon",
+    "country": "France",
+    "rating": 4.6,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1565031491910-e57fac031c41?w=800",
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800"
+    ],
+    "description": "Hôtel 5 étoiles avec vue panoramique sur Lyon, restaurant gastronomique Les Trois Dômes.",
+    "tags": ["5 étoiles", "Vue panoramique", "Gastronomie", "Centre-ville"],
+    "address": "20 Quai Gailleton, 69002 Lyon",
+    "hours": "24/7",
+    "lat": 45.7562,
+    "lng": 4.8342
+  },
+  {
+    "id": 16,
+    "slug": "centre-pompidou-metz",
+    "name": "Centre Pompidou-Metz",
+    "category": "loisir",
+    "city": "Metz",
+    "country": "France",
+    "rating": 4.4,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1565538420870-da08ff96a207?w=800",
+      "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?w=800"
+    ],
+    "description": "Musée d'art moderne et contemporain, architecture exceptionnelle de Shigeru Ban.",
+    "tags": ["Musée", "Art contemporain", "Architecture", "Culture"],
+    "address": "1 Parvis des Droits de l'Homme, 57000 Metz",
+    "hours": "10h-18h (fermé mardi)",
+    "lat": 49.1083,
+    "lng": 6.1817
+  },
+  {
+    "id": 17,
+    "slug": "le-bouillon-chartier-paris",
+    "name": "Le Bouillon Chartier",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "rating": 4.1,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1560053608-648b6b5c5255?w=800",
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800"
+    ],
+    "description": "Bouillon parisien historique depuis 1896, cuisine traditionnelle à prix doux dans un décor Belle Époque.",
+    "tags": ["Bouillon", "Traditionnel", "Belle Époque", "Économique"],
+    "address": "7 Rue du Faubourg Montmartre, 75009 Paris",
+    "hours": "11h30-00h",
+    "lat": 48.8717,
+    "lng": 2.3420
+  },
+  {
+    "id": 18,
+    "slug": "royal-riviera-saint-jean-cap-ferrat",
+    "name": "Royal-Riviera",
+    "category": "hotel",
+    "city": "Saint-Jean-Cap-Ferrat",
+    "country": "France",
+    "rating": 4.8,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1580041065738-e72023775cdc?w=800",
+      "https://images.unsplash.com/photo-1561409037-c7be81613c1f?w=800"
+    ],
+    "description": "Palace Belle Époque avec plage privée sur la Côte d'Azur, jardins méditerranéens luxuriants.",
+    "tags": ["Palace", "Plage privée", "Belle Époque", "Jardins"],
+    "address": "3 Avenue Jean Monnet, 06230 Saint-Jean-Cap-Ferrat",
+    "hours": "24/7",
+    "lat": 43.6942,
+    "lng": 7.3306
+  },
+  {
+    "id": 19,
+    "slug": "zoo-de-beauval",
+    "name": "ZooParc de Beauval",
+    "category": "loisir",
+    "city": "Saint-Aignan",
+    "country": "France",
+    "rating": 4.7,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1503918756811-975bd3397178?w=800",
+      "https://images.unsplash.com/photo-1534759846116-5799c33ce22a?w=800"
+    ],
+    "description": "L'un des plus beaux zoos d'Europe avec pandas géants et plus de 35000 animaux.",
+    "tags": ["Zoo", "Famille", "Pandas", "Conservation"],
+    "address": "Avenue du Blanc, 41110 Saint-Aignan",
+    "hours": "9h-20h (horaires variables)",
+    "lat": 47.2478,
+    "lng": 1.3531
+  },
+  {
+    "id": 20,
+    "slug": "le-train-bleu-paris",
+    "name": "Le Train Bleu",
+    "category": "restaurant",
+    "city": "Paris",
+    "country": "France",
+    "rating": 4.5,
+    "isPartner": false,
+    "images": [
+      "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=800",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800"
+    ],
+    "description": "Restaurant historique de la Gare de Lyon, décor somptueux classé Monument Historique.",
+    "tags": ["Gastronomique", "Monument Historique", "Gare de Lyon"],
+    "address": "Place Louis-Armand, 75012 Paris",
+    "hours": "11h30-14h45, 19h-22h45",
+    "lat": 48.8443,
+    "lng": 2.3743
+  }
+]
